@@ -4,7 +4,7 @@ namespace WNKLab.Domain.Interfaces.Services
 {
     public interface IServiceBase<T> where T : class
     {
-        ICollection<T> RetornarTodos();
+        IEnumerable<T> RetornarTodos();
         T RetornarPor(int id);
         void Adicionar(T obj);
         void Atualizar(T obj);

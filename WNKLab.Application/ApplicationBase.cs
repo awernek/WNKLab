@@ -26,7 +26,7 @@ namespace WNKLab.Application
             throw new NotImplementedException();
         }
 
-        public ICollection<T> RetornarTodos()
+        public IEnumerable<T> RetornarTodos()
         {
             throw new NotImplementedException();
         }

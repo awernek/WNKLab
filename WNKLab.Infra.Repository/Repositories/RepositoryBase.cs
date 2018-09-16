@@ -26,7 +26,7 @@ namespace WNKLab.Infra.Repository.Repositories
             throw new NotImplementedException();
         }
 
-        public ICollection<T> RetornarTodos()
+        public IEnumerable<T> RetornarTodos()
         {
             throw new NotImplementedException();
         }

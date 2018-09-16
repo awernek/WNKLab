@@ -11,7 +11,7 @@ namespace WNKLab.Domain.Services
             throw new NotImplementedException();
         }
 
-        public ICollection<T> RetornarTodos()
+        public IEnumerable<T> RetornarTodos()
         {
             throw new NotImplementedException();
         }
