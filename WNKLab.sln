@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNKLab.Domain", "WNKLab.Dom
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WNKLab.Infra.Database", "WNKLab.Infra.Database\WNKLab.Infra.Database.sqlproj", "{149EC584-970A-4FC7-84DD-B758B9413E02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNKLab.Infra.IoC", "WNKLab.Infra.IoC\WNKLab.Infra.IoC.csproj", "{8D1E3905-8B64-4CD1-8D55-99D79DE1D446}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{149EC584-970A-4FC7-84DD-B758B9413E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149EC584-970A-4FC7-84DD-B758B9413E02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{149EC584-970A-4FC7-84DD-B758B9413E02}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{7FC5FFBC-1B66-4204-BF83-72AAB7B119E8} = {A506FFA5-DE00-4EDD-A220-038AEAAE579D}
 		{C9C6271E-6465-47D0-8890-BAF5B0CCAD5C} = {B92674F4-F498-4C0C-BE4C-8F47B4AB0EF5}
 		{149EC584-970A-4FC7-84DD-B758B9413E02} = {9ECBB07F-BEA0-432B-A660-43FCBA043EBB}
+		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446} = {9ECBB07F-BEA0-432B-A660-43FCBA043EBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A149B216-5C18-43C0-ADFB-2E29C977278F}

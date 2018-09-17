@@ -61,6 +61,9 @@ namespace WNKLab.Application.MVC.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            //kernel.Bind<IProdutoApplication>().To<ProdutoApplication>();
+            //kernel.Bind<IProdutoService>().To<ProdutoService>();
+            //kernel.Bind<IProdutoRepository>().To<ProdutoRepository>();
         }        
     }
 }
