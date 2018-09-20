@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNKLab.Infra.IoC", "WNKLab.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNKLab.Application.API", "WNKLab.Application.API\WNKLab.Application.API.csproj", "{82F4DC44-BA08-4DB2-A730-57D12C1E0D37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WNKLab.Infra.Database", "WNKLab.Infra.Database\WNKLab.Infra.Database.csproj", "{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{82F4DC44-BA08-4DB2-A730-57D12C1E0D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F4DC44-BA08-4DB2-A730-57D12C1E0D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F4DC44-BA08-4DB2-A730-57D12C1E0D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{C9C6271E-6465-47D0-8890-BAF5B0CCAD5C} = {B92674F4-F498-4C0C-BE4C-8F47B4AB0EF5}
 		{8D1E3905-8B64-4CD1-8D55-99D79DE1D446} = {9ECBB07F-BEA0-432B-A660-43FCBA043EBB}
 		{82F4DC44-BA08-4DB2-A730-57D12C1E0D37} = {A506FFA5-DE00-4EDD-A220-038AEAAE579D}
+		{6B9FFAD8-C48B-4EE3-8E5E-F634FC3082CB} = {9ECBB07F-BEA0-432B-A660-43FCBA043EBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A149B216-5C18-43C0-ADFB-2E29C977278F}
