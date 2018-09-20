@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,14 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\ProdutoAdapter.cs" />
     <Compile Include="ApplicationBase.cs" />
     <Compile Include="Interfaces\IApplicationBase.cs" />
+    <Compile Include="Interfaces\IProdutoApplication.cs" />
+    <Compile Include="ModelView\ProdutoViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Adapter\" />
-    <Folder Include="ModelView\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\WNKLab.Domain\WNKLab.Domain.csproj">
       <Project>{c9c6271e-6465-47d0-8890-baf5b0ccad5c}</Project>
